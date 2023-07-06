@@ -19,9 +19,9 @@ Character selectCharacter(Character characterCurrent) {
         print("==x==x==x==x==x==x==x==x==x==x==x==x==x==x==\n");
         print("-Nome do personagem: ${character.name}");
         print("-Classe: ${character.kind}");
-        print("-Vida: ${character.vida}");
-        print("-Força: ${character.forca}");
-        print("-Defesa: ${character.defesa}\n");
+        print("-Vida: ${character.life}");
+        print("-Força: ${character.damage}");
+        print("-Defesa: ${character.defense}\n");
       }
       return select(characterList, characterCurrent);
     } else if (inputSelect == 2) {

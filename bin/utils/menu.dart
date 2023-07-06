@@ -4,6 +4,7 @@ import './select_char.dart';
 import './classes.dart';
 import 'dart:io';
 
+
 runGame(Character character) {
   Character characterCurrent = character;
   print("\n=================== Bem-vindo ao RPG em CLI ! ===================");
@@ -16,7 +17,7 @@ runGame(Character character) {
       switch (selectMenu) {
         case 1:
           play(characterCurrent);
-          break;
+          runGame(characterCurrent);
         case 2:
           characterCurrent = selectCharacter(characterCurrent);
           runGame(characterCurrent);

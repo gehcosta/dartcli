@@ -3,7 +3,7 @@ import 'utils/menu.dart';
 import 'utils/universal_function.dart';
 
 void main() {
-  List<Character> initialClass =  createCharList();
+  List<Character> initialClass = createCharList();
   //List of the characthers:
   //0. Warrior - Guerreiro
   //1. Mage - Mago
